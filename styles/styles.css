@@ -8,6 +8,8 @@
     width: 375px;
     height: 811px;
     border: 1px solid black;
+    padding: 0;
+    margin: 0;
   }
 
 .header {
@@ -26,4 +28,5 @@
 
 .hamburger_mini {
     width: 12px;
+    margin-bottom: 0;
 }
