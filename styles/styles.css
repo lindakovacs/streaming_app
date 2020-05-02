@@ -59,6 +59,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 27px;
+    height: 44.41px;
 }
 
 .tracks__list-image {
@@ -71,6 +73,7 @@
 .tracks__list-info {
     align-items: center;
     text-align: left;
+    margin: 8px 0;
 }
 
 .tracks__list-song {
@@ -78,7 +81,7 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: -0.203259px;
-    margin-bottom: 2px;
+    margin: 0 0 2px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -86,6 +89,7 @@
 }
 
 .tracks__list-band {
+    margin: 0;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.174222px;
