@@ -3,6 +3,9 @@
     color: #0F1E36;
     background-color: #FFFFFF;
     border-radius: 0px;
+    width: 375px;
+    height: 811px;
+    border: 1px solid black;
   }
 
 .header {
