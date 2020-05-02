@@ -18,6 +18,7 @@
     margin-right: 319px;
 }
 
+/* middle height collapses on safari & extra space below on chrome */
 .hamburger {
     width: 22px;
     height: 1.74px;
@@ -29,4 +30,14 @@
 .hamburger_mini {
     width: 12px;
     margin-bottom: 0;
+}
+
+.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.37;
+    font-family: Source Sans Pro, Roboto;
+    margin: 29px 268px 13px 31px;
+    white-space: nowrap;
 }
