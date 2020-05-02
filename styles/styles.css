@@ -3,4 +3,21 @@
     color: #0F1E36;
     background-color: #FFFFFF;
     border-radius: 0px;
-  }  
+  }
+
+.header {
+    margin-top: 21px;
+    margin-left: 34px;
+    margin-right: 319px;
+}
+
+.hamburger {
+    width: 22px;
+    height: 1.74px;
+    background-color: #0F1E36;
+    margin-bottom: 4.87px;
+}
+
+.hamburger_mini {
+    width: 12px;
+}
