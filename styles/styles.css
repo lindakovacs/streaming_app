@@ -23,7 +23,7 @@
     z-index: 1;
     margin-top: -19px;
     padding: 0 32px;
-    display: block;
+    /* display: block; */
 }
 .header-player__navigation {
     display: flex;
@@ -125,24 +125,27 @@
     height: 26px;
 }
 .progress {
+    width: 312px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 31px;
+    /* position: relative; */
 }
-
 .progress__time {
     font-size: 18px;
     line-height: 18px;
     mix-blend-mode: normal;
     opacity: 0.5;
+    margin: 0;
 }
 .progress__bar {
     border: none;
-    width: 203px;
+    width: 183px;
     height: 4px;
     position: relative;
     background: #F51E38;
+    margin: 0 10px;
 }
 .progress__span {
     background-color: #DADADA;
@@ -176,7 +179,6 @@
     background-image: url('../images/pause.svg');
     width: 20px;
     height: 28px;
-    /* background-color: #F51E38; */
 }
 .button__forward {
     background-image: url('../images/backward.svg');
@@ -191,10 +193,10 @@
     align-items: center;
     background: rgba(245, 30, 56, 0.2);
     border: 1px solid rgba(245, 30, 56, 0.3);
-
     border-radius: 50%;
     width: 93px;
     height: 93px;
+    margin: 0 70px;
 }
 .button__inner {
     display: flex;
