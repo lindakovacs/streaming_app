@@ -46,12 +46,6 @@
     white-space: nowrap;
 }
 
-/* .tracks {
-    width: 100%; 
-    height: 100%;
-    margin-left: 0;
-} */
-
 .tracks__list {
     margin-left: 31px;
     padding-left: 0;
@@ -148,12 +142,13 @@
 
 .bottom__nav-slider {
     width: 100px;
-    height: 2px;
-    margin: 0;
+    height: 4px;
     justify-content: center;
     mix-blend-mode: normal;
     opacity: 0.4;
-    border: 4px solid #D3D3D3;
+    background-color: #D3D3D3;;
+    margin: 0 135px 10px;
+    border-radius: .74px;
 }
 
 .bottom__nav-icons-list_right {
