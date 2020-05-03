@@ -23,14 +23,16 @@
     display: flex;
     justify-content: space-between;
     padding-top: 64px;
+    list-style-type: none;
+    margin: 50px 17px 0;
+    padding: 0;
+    align-items: center;
 }
 .button {
     border: none;
     background-color: inherit;
     background-position: center;
     background-repeat: no-repeat;
-    /* display: flex;
-    justify-content: space-between; */
 }
 .button__back {
     background-image: url(../images/left.svg);
@@ -115,3 +117,30 @@
     width: 31px;
     height: 26px;
 }
+.progress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 31px;
+}
+
+.progress__time {
+    font-size: 18px;
+    line-height: 18px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.progress__bar {
+    border: none;
+    width: 203px;
+    height: 4px;
+    position: relative;
+    background: #F51E38;
+}
+.progress__span {
+    background-color: #DADADA;
+    width: 203px;
+    height: .25px;
+    display: block;
+  }
+  
