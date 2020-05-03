@@ -10,6 +10,7 @@
     justify-content: center;
     box-sizing: border-box;
     padding: 0 32px 0 32px;
+    margin: 0;
 }
 .header-player {
     background-image: url(../images/band.png);
@@ -28,7 +29,7 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    margin: 50px 17px 0;
+    margin: 32px 0 0;
     padding: 0;
     align-items: center;
 }
