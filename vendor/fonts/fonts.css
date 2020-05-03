@@ -12,9 +12,19 @@
     font-weight: 500;
 }
 
+
 @font-face {
-    font-family: "SourceSansPro-Bold";
-    src: url('./SourceSansPro-Bold.woff') format('woff');
+    font-family: 'SourceSansPro-Regular';
+    font-weight: normal;
     font-style: normal;
-    font-weight: bold;
+    src: url('./SourceSansPro-Regular.woff2') format('woff2'),
+         url('./SourceSansPro-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Bold';
+    font-weight: normal;
+    font-style: normal;
+    src: url('./SourceSansPro-Bold.woff2') format('woff2'),
+         url('./SourceSansPro-Bold.woff') format('woff');
 }
