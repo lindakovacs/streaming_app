@@ -130,7 +130,13 @@
 }
 
 .bottom__nav-slider {
-    background-image: url('./../images/Path 3.png');
+    /* background-image: url('./../images/Path 3.png'); */
+    width: 100px;
+    height: 2px;
     margin-bottom: 10px;
     justify-content: center;
+    z-index: 1;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    border: 4px solid #D3D3D3;
 }
