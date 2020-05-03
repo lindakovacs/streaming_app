@@ -16,7 +16,7 @@
   }
 
 .header {
-    margin-top: 21px;
+    margin-top: 50px;
     margin-left: 34px;
     margin-right: 319px;
 }
@@ -103,6 +103,8 @@
     color: #545663;
     margin-right: 21px;
     width: 39px;
+    align-items: center;
+    text-align: left;
 }
 
 .bottom__nav {
