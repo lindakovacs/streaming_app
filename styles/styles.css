@@ -98,6 +98,8 @@
     align-items: center;
     list-style-type: none;
     flex-direction: row;
+    margin: 0;
+    padding: 0;
 }
 .button__options {
     background-image: url('../images/options.svg');
@@ -109,6 +111,7 @@
     background-image: url('../images/download.svg');
     width: 28px;
     height: 22px;
+    margin-right: 105px;
 }
 .button__loading {
     background-image: url('../images/loading.svg');
