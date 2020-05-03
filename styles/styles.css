@@ -1,10 +1,10 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
 
-.page {
+.root {
     max-width: 375px;
     height: 812px;
-    font-family: 'Roboto', 'SourceSansPro-Regular', Arial, sans-serif;
+    font-family: 'SourceSansPro-Regular', Arial, sans-serif;
     background: #F2F2F2;
     color: #0F1E36;
     display: flex;
@@ -14,12 +14,21 @@
     box-sizing: border-box;
     padding: 0 32px 0 32px;
     margin: 0 auto;
+  }
+
+  .page {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
-    /* padding: 0; */
+    color: #0F1E36;
+    background-color: #FFFFFF;
+    width: 375px;
+    height: 812px;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: center;
     background: linear-gradient(180deg, rgba(244, 249, 255, 0.0001) 0%, #F4F9FF 26.23%);
 }
-
 .header {
     margin-top: 10px;
     margin-left: 34px;
@@ -350,7 +359,7 @@
     align-items: center;
     padding: 0;
     margin: 0;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 .payer-controls {
     display: flex;
@@ -358,11 +367,14 @@
     list-style-type: none;
     margin: 0 0 56px 0;
     padding: 0;
+    /* justify-content: space-between; */
 }
 .button__backward {
     background-image: url('../images/backward.svg');
     width: 36px;
     height: 22px;
+    padding: 0;
+    margin: 0;
 }
 .button__play {
     background-image: url('../images/pause.svg');

@@ -7,46 +7,49 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Streaming App</title>
 </head>
-<body class="page">
-    <header class="header-player">
-        <ul class="header-player__navigation">
-            <li><a href="index.html"><button class="button button__back"></button></a></li>
-            <li><a href="#"><button class="button button__more"></button></a></li>  
-        </ul>
-    </header>
-    <main class="content">
-        <section class="track">
-            <img src="/images/cover.png" alt="Jonas Brothers Band" class="track__cover">
-            <h1 class="track__title">Sucker</h1>
-            <p class="track__artist">Jonas Brothers</p>
-        </section>
-        <section class="player-menu">
-            <ul class="payer-menu__controls">
-                <li><button class="button button__options"></button></li>
-                <li><button class="button button__download"></button></li>
-                <li><button class="button button__loading"></button></li>
-                <li><button class="button button__volume"></button></li>
+<body>
+    <div class="root">
+        <header class="header-player">
+            <ul class="header-player__navigation">
+                <li><a href="#"><button class="button button__back"></button></a></li>
+                <li><a href="#"><button class="button button__more"></button></a></li>  
             </ul>
-        </section>
-        <section class="progress">
-            <p class="progress__time">02:54</p>
-                <div class="progress__bar">
-                    <span class="progress__fill"></span>
-                </div>
-            <p class="progress__time">03:29</p> 
-        </section>
-        <section class="player">
-            <ul class="payer-controls">
-                <li><button class="button button__backward"></button></li>
-                <li>
-                    <div class="button button__outer">
-                        <div class="button button__inner">
-                            <button class="button button__play"></button></li>
-                        </div>
+        </header>
+        <main class="content">
+            <section class="track">
+                <img src="/images/cover.png" alt="Jonas Brothers Band" class="track__cover">
+                <h1 class="track__title">Sucker</h1>
+                <p class="track__artist">Jonas Brothers</p>
+            </section>
+            <section class="player-menu">
+                <ul class="payer-menu__controls">
+                    <li><button class="button button__options"></button></li>
+                    <li><button class="button button__download"></button></li>
+                    <li><button class="button button__loading"></button></li>
+                    <li><button class="button button__volume"></button></li>
+                </ul>
+            </section>
+            <section class="progress">
+                <p class="progress__time">02:54</p>
+                    <div class="progress__bar">
+                        <span class="progress__fill"></span>
                     </div>
-                <li><button class="button button__forward"></button></li>
-            </ul>
-        </section>
-    </main>
+                <p class="progress__time">03:29</p>
+            </section>
+            <section class="player">
+                <ul class="payer-controls">
+                    <li><button class="button button__backward"></button></li>
+                    <li>
+                        <div class="button button__outer">
+                            <div class="button button__inner">
+                                <button class="button button__play"></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li><button class="button button__forward"></button></li>
+                </ul>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
