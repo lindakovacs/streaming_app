@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    padding: 0;
+    padding: 0 32px 0 32px;
 }
 .header-player {
     background-image: url(../images/band.png);
@@ -21,11 +21,12 @@
     position: relative;
     z-index: 1;
     margin-top: -19px;
+    padding: 0 32px;
+    display: block;
 }
 .header-player__navigation {
     display: flex;
     justify-content: space-between;
-    padding-top: 64px;
     list-style-type: none;
     margin: 50px 17px 0;
     padding: 0;
@@ -52,18 +53,20 @@
     height: 150px;
     position: relative;
     z-index: 2;
-    border-radius: 25px 25px 0px 0px;
+    border-radius: 27px 27px 0px 0px;
+    /* box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.25); */
     display: flex;
     flex-direction: column;
-    margin-top: 57px;
-    padding: 0 64px;
     align-items: center;
+    background-color: #FFFFFF;
+    margin: -153px 0 0; 
+    padding: 0 32px;
 }
 .track {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 64px;
+    margin: 57px auto 64px;
 }
 .track__cover {
     width: 150px;
