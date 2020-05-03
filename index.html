@@ -9,10 +9,6 @@
 </head>
 <body class="page">
     <header class="header-player">
-        <!-- <nav class="header-player__navigation">
-            <a href="#"><button class="button button__back"></button></a>
-            <a href="#"><button class="button button__more"></button></a>
-        </nav> -->
         <ul class="header-player__navigation">
             <li><a href="#"><button class="button button__back"></button></a></li>
             <li><a href="#"><button class="button button__more"></button></a></li>  
@@ -25,14 +21,12 @@
             <p class="track__artist">Jonas Brothers</p>
         </section>
         <section class="player-menu">
-            <div class="payer-menu__left">
-                <button class="button button__options"></button>
-                <button class="button button__download"></button>
-            </div>
-            <div class="payer-menu__right">
-                <button class="button button__loading"></button>
-                <button class="button button__volume"></button>
-            </div>
+            <ul class="payer-menu__controls">
+                <li><button class="button button__options"></button></li>
+                <li><button class="button button__download"></button></li>
+                <li><button class="button button__loading"></button></li>
+                <li><button class="button button__volume"></button></li>
+            </ul>
         </section>
         <section class="progress">
             <p class="progress__time">02:54</p>
@@ -43,6 +37,18 @@
                 </div>
               </div>
             <p class="progress__time">03:29</p>
+        </section>
+        <section class="player">
+            <ul class="payer-controls">
+                <li><button class="button button__backward"></button></li>
+                <li>
+                    <div class="button button__outer">
+                        <div class="button button__inner">
+                            <button class="button button__play"></button></li>
+                        </div>
+                    </div>
+                <li><button class="button button__forward"></button></li>
+            </ul>
         </section>
     </main>
 </body>
