@@ -29,13 +29,15 @@
     background-color: inherit;
     background-position: center;
     background-repeat: no-repeat;
+    /* display: flex;
+    justify-content: space-between; */
 }
-.button_back {
+.button__back {
     background-image: url(../images/left.svg);
     width: 24px;
     height: 16px;
 }
-.button_more {
+.button__more {
     background-image: url(../images/more.svg);
     width: 42px;
     height: 42px;
@@ -58,7 +60,7 @@
     align-items: center;
     margin-bottom: 64px;
 }
-.track_cover {
+.track__cover {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -75,4 +77,41 @@
     font-size: 18px;
     line-height: 14px;
     margin: 18px 0 0;
+    mix-blend-mode: normal;
+    opacity: 0.48;
+}
+.player-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 49px;
+}
+.payer-menu__left {
+    display: flex;
+    align-items: center;
+}
+.payer-menu__right {
+    display: flex;
+    align-items: center;
+}
+.button__options {
+    background-image: url('../images/options.svg');
+    width: 28px;
+    height: 15px;
+    margin-right: 46px;
+}
+.button__download {
+    background-image: url('../images/download.svg');
+    width: 28px;
+    height: 22px;
+}
+.button__loading {
+    background-image: url('../images/loading.svg');
+    width: 22px;
+    height: 24px;
+    margin-right: 46px;
+}
+.button__volume {
+    background-image: url('../images/louder.svg');
+    width: 31px;
+    height: 26px;
 }
