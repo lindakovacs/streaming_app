@@ -1,4 +1,5 @@
 @import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
 
 .page {
     font-family: 'Roboto', sans-serif;
@@ -40,7 +41,7 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 1.37;
-    font-family: Source Sans Pro, Roboto;
+    font-family: 'SourceSansPro-Bold', 'Roboto';
     margin: 29px 268px 13px 31px;
     white-space: nowrap;
 }
@@ -86,6 +87,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     width: 180px;
+
 }
 
 .tracks__list-band {
