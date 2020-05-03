@@ -23,7 +23,7 @@
 /* middle height collapses on safari & extra space below on chrome */
 .hamburger {
     width: 22px;
-    height: 1.74px;
+    height: 2px;
     background-color: #0F1E36;
     margin-bottom: 4.87px;
     border-radius: .74px;
