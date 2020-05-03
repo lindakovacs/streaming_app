@@ -17,7 +17,7 @@
   }
 
 .header {
-    margin-top: 21px;
+    margin-top: 10px;
     margin-left: 34px;
     margin-right: 319px;
 }
@@ -116,6 +116,8 @@
     z-index: 0;
     background-image: url('../images/Rectangle-2.png');
     background-repeat: no-repeat;
+    width: 375px;
+    height: 102px;
 }
 
 .bottom__nav-icons {
@@ -124,22 +126,22 @@
     padding: 0;
 }
 
+.bottom__nav-button {
+    width: 62px;
+    height: 62px;
+    justify-content: center;
+    margin: 5px 157px 0;
+    align-items: flex-end;
+}
+
 .bottom__nav-icons-list {
     list-style: none;
     flex-direction: row;
     margin: 0 0 0 35px;
     display: flex;
-    align-items: center;
     padding-left: 0;
+    align-items: flex-center;
 }
-
-.bottom__nav-button {
-    width: 62px;
-    height: 62px;
-    justify-content: center;
-    margin: 0 157px 0;
-}
-
 .bottom__nav-slider {
     width: 100px;
     height: 4px;
@@ -147,13 +149,15 @@
     mix-blend-mode: normal;
     opacity: 0.4;
     background-color: #D3D3D3;;
-    margin: 0 135px 10px;
+    margin: 0 135px;
     border-radius: .74px;
 }
 
 .bottom__nav-icons-list_right {
     float: right;
     margin-left: 0;
+    margin-right: 0;
+    width: 100px;
     padding-right: 0;
 }
 
