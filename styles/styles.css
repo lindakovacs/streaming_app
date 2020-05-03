@@ -8,6 +8,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
+    padding: 0;
 }
 .header-player {
     background-image: url(../images/band.png);
@@ -18,6 +20,7 @@
     height: 393px;
     position: relative;
     z-index: 1;
+    margin-top: -19px;
 }
 .header-player__navigation {
     display: flex;
@@ -142,16 +145,20 @@
 }
 .player {
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     align-items: center;
     padding: 0;
     margin: 0;
+    /* display: inline-block; */
+    justify-content: space-around;
 }
 .payer-controls {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 .button__backward {
     background-image: url('../images/backward.svg');
@@ -177,7 +184,7 @@
     align-items: center;
     background: rgba(245, 30, 56, 0.2);
     border: 1px solid rgba(245, 30, 56, 0.3);
-    box-sizing: border-box;
+
     border-radius: 50%;
     width: 93px;
     height: 93px;
