@@ -28,7 +28,7 @@
     margin: 0 auto;
     justify-content: center;
     background: linear-gradient(180deg, rgba(244, 249, 255, 0.0001) 0%, #F4F9FF 26.23%);
-    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.25); 
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25); 
 }
 .header {
     margin-top: 10px;
@@ -138,7 +138,7 @@
 
 .bottom__nav {
     display: flex;
-    margin-top: 100px;
+    margin-top: 75px;
     position: relative;
 }
 
