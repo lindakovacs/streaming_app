@@ -104,3 +104,31 @@
     margin-right: 21px;
     width: 39px;
 }
+
+.bottom__nav {
+    display: flex;
+}
+
+.bottom__nav-base {
+    background-image: url('./../images/Rectangle-2.png');
+}
+
+.bottom__nav-icons-list {
+    list-style: none;
+    flex-direction: row;
+    margin: 39px 35px 30px;
+}
+
+.bottom__nav-button {
+    width: 62px;
+    height: 62px;
+    justify-content: center;
+    margin: 103.64px auto 40px;
+    background-image: url('./../images/Stroke 196 + Stroke 197.png');
+}
+
+.bottom__nav-slider {
+    background-image: url('./../images/Path 3.png');
+    margin-bottom: 10px;
+    justify-content: center;
+}
