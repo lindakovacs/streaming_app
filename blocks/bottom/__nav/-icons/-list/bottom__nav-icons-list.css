@@ -1,0 +1,8 @@
+.bottom__nav-icons-list {
+    list-style: none;
+    flex-direction: row;
+    margin: 0 0 0 35px;
+    display: flex;
+    padding-left: 0;
+    align-items: center;
+}

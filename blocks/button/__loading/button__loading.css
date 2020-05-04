@@ -1,0 +1,6 @@
+.button__loading {
+    background-image: url('../../../images/loading.svg');
+    width: 22px;
+    height: 24px;
+    margin-right: 46px;
+}

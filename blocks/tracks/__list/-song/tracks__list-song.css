@@ -1,0 +1,11 @@
+.tracks__list-song {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.203259px;
+    margin: 0 0 2px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 180px;
+}

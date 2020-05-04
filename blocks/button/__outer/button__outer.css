@@ -1,0 +1,12 @@
+.button__outer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(245, 30, 56, 0.2);
+    border: 1px solid rgba(245, 30, 56, 0.3);
+    border-radius: 50%;
+    width: 93px;
+    height: 93px;
+    margin: 0 70px;
+}

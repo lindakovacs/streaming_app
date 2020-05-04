@@ -1,0 +1,8 @@
+.progress__bar {
+    border: none;
+    width: 100%;
+    height: 4px;
+    position: relative;
+    background-color: #DADADA;
+    margin: 0 10px;
+}

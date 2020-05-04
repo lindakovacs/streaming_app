@@ -1,0 +1,6 @@
+.button__options {
+    background-image: url('../../../images/options.svg');
+    width: 28px;
+    height: 15px;
+    margin-right: 46px;
+}

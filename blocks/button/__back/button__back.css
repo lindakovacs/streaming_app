@@ -1,0 +1,5 @@
+.button__back {
+    background-image: url(../../../images/left.svg);
+    width: 42px;
+    height: 42px;
+}

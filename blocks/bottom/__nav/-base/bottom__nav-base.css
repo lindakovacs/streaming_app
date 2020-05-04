@@ -1,0 +1,12 @@
+.bottom__nav-base {
+    position: -webkit-sticky; /* Required for Safari */
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    background-image: url('../../../../images/Rectangle-2.png');
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 102px;
+    align-self: flex-end;
+}

@@ -1,0 +1,10 @@
+@import url('__cover/track__cover.css');
+@import url('__title/track__title.css');
+@import url('__artist/track__artist.css');
+
+.track {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 57px auto 64px;
+}

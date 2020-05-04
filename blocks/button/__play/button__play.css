@@ -1,0 +1,5 @@
+.button__play {
+    background-image: url('../../../images/pause.svg');
+    width: 20px;
+    height: 28px;
+}

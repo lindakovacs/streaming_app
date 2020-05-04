@@ -1,0 +1,22 @@
+@import url('__back/button__back.css');
+@import url('__more/button__more.css');
+@import url('__options/button__options.css');
+@import url('__download/button__download.css');
+@import url('__loading/button__loading.css');
+@import url('__volume/button__volume.css');
+@import url('__backward/button__backward.css');
+@import url('__forward/button__forward.css');
+@import url('__play/button__play.css');
+/* To check later */
+@import url('__outer/button__outer.css');
+@import url('__inner/button__inner.css');
+
+.button {
+    border: none;
+    background-color: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.button:hover {
+    transform: scale(1.3);
+}

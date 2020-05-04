@@ -1,0 +1,12 @@
+@import url('-menu/player-menu.css');
+@import url('-menu/__controls/payer-menu__controls.css');
+@import url('-controls/payer-controls.css');
+
+.player {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    /* justify-content: space-around; */
+}

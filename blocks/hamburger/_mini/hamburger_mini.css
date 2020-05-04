@@ -1,0 +1,7 @@
+.hamburger_mini {
+    width: 12px;
+    margin-bottom: 0;
+}
+.hamburger_mini:hover {
+    transform: translate(10px, 0);
+}

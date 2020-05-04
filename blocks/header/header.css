@@ -1,0 +1,11 @@
+@import url('-player/header-player.css');
+@import url('-player/__navigation/header-player__navigation.css');
+
+.header {
+    margin-top: 10px;
+    margin-left: 34px;
+    margin-right: 319px;
+}
+.header:hover {
+    transform: rotate(90deg);
+}

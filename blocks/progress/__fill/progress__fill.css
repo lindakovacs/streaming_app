@@ -1,0 +1,6 @@
+.progress__fill {
+    background-color: #F51E38;
+    height: 4px;
+    width: 70%;
+    display: block;
+}

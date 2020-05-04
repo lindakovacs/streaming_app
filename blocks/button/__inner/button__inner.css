@@ -1,0 +1,9 @@
+.button__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F51E38;
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+}

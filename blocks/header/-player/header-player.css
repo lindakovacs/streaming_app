@@ -1,0 +1,12 @@
+.header-player {
+    background-image: url(../../../images/band.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 393px;
+    position: relative;
+    z-index: 1;
+    margin-top: -19px;
+    padding: 0 32px;
+}

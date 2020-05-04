@@ -1,0 +1,11 @@
+@import url('__time/progress__time.css');
+@import url('__bar/progress__bar.css');
+@import url('__fill/progress__fill.css');
+
+.progress {
+    width: 312px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 31px;
+}

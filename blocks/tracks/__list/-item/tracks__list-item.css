@@ -1,0 +1,15 @@
+.tracks__list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 27px;
+    height: 44.41px;
+    transform-origin: 50% 100%;
+}
+
+/* .tracks */
+.tracks__list-item:hover {
+    transform: scale3d(1,1,1);
+    transition-timing-function: ease;
+	transform-origin: 0% 50%
+}

@@ -1,0 +1,11 @@
+.bottom__nav-slider {
+    width: 100px;
+    height: 5px;
+    justify-content: center;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    background-color: #D3D3D3;;
+    margin: 8px 135px 5px;
+    border-radius: 2px;
+    position: absolute;
+}

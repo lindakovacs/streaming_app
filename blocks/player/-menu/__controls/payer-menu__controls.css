@@ -1,0 +1,8 @@
+.payer-menu__controls {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}

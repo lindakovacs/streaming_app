@@ -1,0 +1,6 @@
+.button__download {
+    background-image: url('../../../images/download.svg');
+    width: 28px;
+    height: 22px;
+    margin-right: 105px;
+}
