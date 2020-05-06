@@ -1,6 +1,6 @@
 .bottom__nav-icons {
     display: flex;
-    margin: 0;
-    padding: 0;
+    margin-top: -25px;
+    padding-bottom: 10px;
 }
 
