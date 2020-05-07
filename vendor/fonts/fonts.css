@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('./roboto-v20-latin-regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('./roboto-v20-latin-500.woff') format('woff');
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'SourceSansPro-Regular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('./SourceSansPro-Regular.woff2') format('woff2'),
+         url('./SourceSansPro-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Bold';
+    font-weight: normal;
+    font-style: normal;
+    src: url('./SourceSansPro-Bold.woff2') format('woff2'),
+         url('./SourceSansPro-Bold.woff') format('woff');
+}
